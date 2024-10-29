@@ -1,0 +1,9 @@
+root_dir: "***/mimic-cxr/physionet.org/files/mimic-cxr-jpg/2.0.0/"
+res_dir: "***"
+
+# view_positions used in our experiments: 'AP', 'Lateral', 'LL', 'PA'
+view_position: "**"
+trans_resize: 224
+
+logging:
+  filename: 'preprocessing.log'
