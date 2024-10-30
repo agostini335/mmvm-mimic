@@ -1,5 +1,7 @@
 # MMVM VAE on MIMIC-CXR
 
+![diagram-20241030 (1)](https://github.com/user-attachments/assets/d563f218-fe57-4f0f-b781-b1d6075fc178)
+
 This repository provides the code needed to reproduce the MIMIC-CXR experiment from our NeurIPS 2024 paper:  
 **"Unity by Diversity: Improved Representation Learning in Multimodal VAEs"**.
 
@@ -7,7 +9,6 @@ The main repository, which includes code for replicating additional experiments 
 can be found at the following link: https://github.com/thomassutter/mmvmvae.
 
 We welcome any comments or questions — please feel free to reach out!
-
 
 
 
@@ -53,11 +54,22 @@ We welcome any comments or questions — please feel free to reach out!
      ```bash
      python main_mv_wsl.py
      ```
-### TrainSupervised Classifiers
+### Train Supervised Classifiers
    - Adjust parameters in `MyClfConfig.py`
    - Run the following script:
      ```bash
      python main_train_clf_MimicCXR.py
      ```
+## Citation
+If you use our model in your work, please cite us using the following citation
+
+```
+@inproceedings{sutter2024,
+  title={Unity by Diversity: Improved Representation Learning in Multimodal VAEs},
+  author={Sutter, Thomas M and Meng, Yang and Agostini, Andrea and Chopard, Daphné and Fortin, Norbert and Vogt, Julia E. and Shahbaba, Babak and Mandt, Stephan},
+  year = {2024},
+  booktitle = {arxiv},
+}
+```
 ---
 
