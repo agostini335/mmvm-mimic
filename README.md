@@ -61,7 +61,7 @@ We welcome any comments or questions — please feel free to reach out!
      python main_train_clf_MimicCXR.py
      ```
 ## Citation
-If you use our model in your work, please cite us using the following citation
+If you use our model in your work, please cite us using the following citations
 
 ```
 @inproceedings{sutter2024,
@@ -70,6 +70,14 @@ If you use our model in your work, please cite us using the following citation
   year = {2024},
   booktitle = {arxiv},
 }
+
+@article{agostini2024weakly,
+  title={Weakly-Supervised Multimodal Learning on MIMIC-CXR},
+  author={Agostini, Andrea and Chopard, Daphn{\'e} and Meng, Yang and Fortin, Norbert and Shahbaba, Babak and Mandt, Stephan and Sutter, Thomas M and Vogt, Julia E},
+  journal={arXiv preprint arXiv:2411.10356},
+  year={2024}
+}
 ```
+
 ---
 
